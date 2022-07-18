@@ -14,7 +14,7 @@ if(changeRace == true){
 
     let caracteristicas = usuarios.map(usuario => (`<b style="color:#fff">nombre:</b> <b style="color:#0f0;">${usuario.nombreUsuario = nombreUsuario}</b><br><b style="color:#fff">edad:</b> <b style="color:#0f0">${usuario.edad = edadUsuario} años</b><br><b style="color:#fff">idioma:</b> <b style="color:#0f0">${usuario.idioma = idiomaUsuario}</b><br><br>`));
 
-    let usuario = `<b style="color:#fff">Datos de usuario:</b><br>${caracteristicas}`;//los datos del usuario quedan guardados en una variable
+    var usuario = `<b style="color:#fff">Datos de usuario:</b><br>${caracteristicas}`;//los datos del usuario quedan guardados en una variable
     document.write(usuario);
 }else{
     let caracteristicas = usuarios.map(usuario => (`<b style="color:#fff">nombre:</b> <b style="color: red">${usuario.nombreUsuario = "unanimed"}</b><br><b style="color:#fff">edad:<b> <b style="color: red">${usuario.edad = "undefined"}</b><br><b style="color:#fff">idioma:<b> <b style="color:red">${usuario.idioma = "undefined"}</b><br><br>`));
